@@ -1,0 +1,127 @@
+/* roboto-mono-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-mono-v13-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-mono-v13-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-mono-v13-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-mono-v13-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-mono-v13-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-mono-v13-latin_cyrillic-regular.svg#RobotoMono') format('svg'); /* Legacy iOS */
+  }
+body {
+    font-family: Roboto Mono;
+    margin: 0px;
+    background-color: lightsteelblue;
+}
+.headerBg {
+    color: white;
+    background-image: url(../images/header_fon.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #020305;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.headerFlex {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+   
+    padding-right: 10%;
+    text-align: center;
+}
+
+
+
+.navFlex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navFlex ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+}
+.navBg {
+    background-color:white;
+}
+.navLiFlex {
+    margin-right: 1cm;
+    padding: 0.1cm 0.5cm;
+}
+
+.linksStyle{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.liItemsBorder{
+  
+    border-left: 1px solid black;
+    
+  
+}
+
+.logoItemsFlex {
+    padding: 0cm 0.5cm;
+}
+.logoItemsFlex img{
+    height: 5cm;
+    width: 5cm;
+}
+.mainFlex {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;    
+}
+
+.mainBg {
+    background-color:white;
+}
+
+.footerBorder{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-width: 5px 7px;
+    border-style: solid;
+    border-color: black;
+
+}
+.footerFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0.5cm 0.5cm;
+
+}
+
+.footerFlex img{
+    height: 50px;
+    width: 50px;
+}
+
+.footerBg {
+    background-color:white;
+}
+.footerFlexText{
+    margin-right: 1cm;
+}
