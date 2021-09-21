@@ -91,6 +91,7 @@ body {
   align-items: center;
   flex-wrap: nowrap;
   align-content: space-around;
+  padding-bottom: 2%;
 }
 .mainFlex3Rows {
   display: flex;
@@ -102,6 +103,15 @@ body {
 .mainFlex3Columns-2Rows-Style {
   background-color: black;
   color: white;
+}
+.mainFlex3Columns-1Rows-Style {
+  border: 1px solid lightblue;
+  padding-left: 2%;
+  text-align: center;
+  margin-top: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+  min-width: 40%;
 }
 .mainFlex3Columns {
   display: flex;
@@ -116,6 +126,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
+  padding: 2% 2%;
 }
 .mainFlexButton {
   margin: 3% auto;
@@ -137,6 +148,7 @@ body {
   width: 477px;
   height: 300px;
 }
+
 .footerBorder {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border-width: 5px 7px;
