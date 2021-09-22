@@ -4,55 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Веб-технологии|Резюме</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <nav>
+    <nav class="navFlex navBg">
+        <div class="logoItemsFlex">
+            <a class="linksStyle" href="index.html"><img src="../images/logo.png" width="200px" height="200px"></a>
+        </div>
         <ul>
-            <li>
-                <a href="index.html"><img src="../images/logo.png" width="200px" height="200px"></a>
+    
+            <li class="navLiFlex liItemsBorder">
+                <a class="linksStyle" href="main.html">О себе</a>
             </li>
-            <li>
-                <a href="main.html">О себе</a>
+            <li class="navLiFlex liItemsBorder">
+                <a class="linksStyle" href="competetion.html">Компетенции</a>
             </li>
-            <li>
-                <a href="competetion.html">Компетенции</a>
+            <li class="navLiFlex liItemsBorder">
+                <a class="linksStyle" href="rezume.html">Резюме</a>
             </li>
-            <li>
-                <a href="rezume.html">Резюме</a>
+            <li class="navLiFlex liItemsBorder">
+                <a class="linksStyle" href="portfolio.html">Портфолио</a>
             </li>
-            <li>
-                <a href="portfolio.html">Портфолио</a>
-            </li>
-            <li>
-                <a href="contacts.html">Контакты</a>
+            <li class="navLiFlex liItemsBorder">
+                <a class="linksStyle" href="contacts.html">Контакты</a>
             </li>
         </ul>
     </nav>
-    <header>
+    <header class="headerFlex headerBg">
     
         <h1>Веб-технологии</h1>
        
         
     
     </header>
-    <main>
+    <main class="mainFlex mainBg mainFlexText">
         <div>
             <h2 style="text-align: center;">Опыт работы</h2>
-            <table border="1px"   align="center">
-                <tr>
-                    <td>год</td>
-                    <td>место работы(учебы),должность</td>
-                    <td>должностные обязанности</td>
+            <table>
+                
+                <tr class="trBg trFlexCaption">
+                    <td >год</td>
+                    <td >место работы(учебы),должность</td>
+                    <td >должностные обязанности</td>
                 </tr>
-                <tr>
-                    <td>2020-2024</td>
-                    <td colspan="2">"Университет Дубна", Прикладная информатика</td>
-                    
-                </tr>
-                <tr>
-                    <td>2024-2028</td>
-                    <td>ПАО "Газпром", Web-дизайнер</td>
+                <tr >
+                    <td class="tdFlexText">2020-2024</td>
+                    <td class="tdFlexText">"Университет Дубна", Прикладная информатика</td>
                     <td>
+                        <ul>
+                            <li>
+                                студент, учеба
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tdFlexText">2024-2028</td>
+                    <td class="tdFlexText">ПАО "Газпром", Web-дизайнер</td>
+                    <td >
                         <ul>
                             <p>Поддержка и развитие интерфейса продукта:</p>
                             <li>проектирование и оформление интерфейсов, их анимация</li>
@@ -62,8 +71,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>2024 по настоящее время</td>
-                    <td>Google, Lead UX/UI Designer</td>
+                    <td class="tdFlexText">2024 по настоящее время</td>
+                    <td class="tdFlexText">Google, Lead UX/UI Designer</td>
                     <td>
                         <ul>
                             <li>создавать прототипы и проектировать игровые меню и интерфейсы;</li>
@@ -81,11 +90,11 @@
             </table>
         </div>
     </main>
-    <footer>
+    <footer class="footerFlex footerBorder footerBg">
         <div >
-            <a href="https://vk.com/"><img src="../images/logoVK.png" alt="" height="50" width="50"></a>
-            <a href="https://www.instagram.com/?hl=ru"><img src="../images/logoInst.png" alt="" height="50" width="50"></a>
-            <a href="https://github.com/"><img src="../images/logoGit.jpg" alt="" height="50" width="50"></a>
+            <a href="https://vk.com/"><img class="imgSizeSmall" src="../images/logoVK.png" alt="" ></a>
+            <a href="https://www.instagram.com/?hl=ru"><img class="imgSizeSmall" src="../images/logoInst.png" ></a>
+            <a href="https://github.com/"><img class="imgSizeSmall" src="../images/logoGit.jpg" alt="" ></a>
         </div>
         <div><p style="text-align: center;">Сайт разработан ФИ, Copyright © 2021 </p></div>
     </footer>
