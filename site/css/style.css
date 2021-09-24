@@ -42,6 +42,8 @@ html {
   height: 100%;
 }
 body {
+  display: flex;
+  flex-direction: column;
   font-family: Roboto Mono;
   background-color: lightsteelblue;
   background-image: url(../images/header_fon.jpg);
@@ -50,17 +52,19 @@ body {
   background-color: #020305;
   background-attachment: fixed;
   background-size: cover;
-  height: 100%;
+
+
+
 }
 .headerBg {
   color: white;
 }
 .headerFlex {
   display: flex;
-  align-self: center;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
+ flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
   height: 420px;
 
   padding-right: 10%;
@@ -69,6 +73,7 @@ body {
 
 .navFlex {
   display: flex;
+  flex-shrink: 0;
   justify-content: space-between;
   width: 100%;
   margin: 0px;
@@ -106,20 +111,24 @@ body {
   height: 150px;
   width: 150px;
 }
+
 .mainFlex {
   display: flex;
+  flex-grow: 5;
   margin: auto;
-  max-width: 72%;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
   align-content: space-around;
+  width: 100%;
 }
 
 .mainFlex3Columns-2Rows-Style {
+  padding-top: 2%;
   background-color: black;
   color: white;
+
 }
 
 .mainFlexColumnsImg {
@@ -151,6 +160,7 @@ body {
   align-content: center;
 }
 .mainFlexButton {
+
   margin: 3% auto;
 }
 .mainFlexTitle {
@@ -211,12 +221,17 @@ hr {
 }
 .footerFlex {
   display: flex;
+  flex-shrink: 0;
   flex-direction: row;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   padding: 0.5cm 0.5cm;
-  flex: 100%;
+
+
+
+
 }
+
 
 .footerFlex img {
   height: 50px;
@@ -226,16 +241,7 @@ hr {
 .footerBg {
   background-color: white;
 }
-.footerFlexText {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-content: center;
-  margin: 0 auto;
-  padding-right: 2%;
-  
-}
+
 .footerFlexTextStyle {
   background-color: white;
 }
