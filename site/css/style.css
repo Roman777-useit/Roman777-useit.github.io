@@ -115,13 +115,12 @@ body {
 .mainFlex {
   display: flex;
   flex-grow: 5;
-  margin: auto;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
   align-content: space-around;
-  width: 100%;
+
 }
 
 .mainFlex3Columns-2Rows-Style {
@@ -226,6 +225,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   padding: 0.5cm 0.5cm;
+
 
 
 
