@@ -66,9 +66,10 @@ body {
   align-items: center;
   justify-content: flex-end;
   height: 420px;
-
+ padding-top:10%;
   padding-right: 10%;
   text-align: center;
+ 
 }
 
 .navFlex {
@@ -77,6 +78,9 @@ body {
   justify-content: space-between;
   width: 100%;
   margin: 0px;
+  position:fixed;
+  top:0;
+  left:0;
 }
 .navFlex ul {
   display: flex;
@@ -121,6 +125,9 @@ body {
   flex-wrap: nowrap;
   align-content: space-around;
 
+}
+.table span{
+	display:none;
 }
 
 .mainFlex3Columns-2Rows-Style {
@@ -328,10 +335,7 @@ hr {
   .mainFlexText {
     font-size: 11px;
     text-align: justify;
-    display: -webkit-box;
-    -webkit-line-clamp: 40;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+
   }
   .mainFlex {
     height: 100%;
@@ -364,10 +368,7 @@ hr {
 
     font-size: 11px;
     text-align: justify;
-    display: -webkit-box;
-    -webkit-line-clamp: 40;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+
   }
   .mainFlex {
     height: 100%;
@@ -401,22 +402,13 @@ hr {
   .mainFlexText {
     font-size: 11px;
     text-align: justify;
-    display: -webkit-box;
-    -webkit-line-clamp: 40;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+
   }
   .mainFlexRows .imgSizeSmall{
     display: none;
   }
-  .mainFlex table td {
-    position: relative;
-    display: block;
-  }
-  .mainFlex table td::before {
-    content: attr(data-label) ": ";
-    position: relative;
-    left: 2%;
+
+
 }
 @media (max-width: 540px) {
   .footerFlex {
@@ -431,19 +423,19 @@ hr {
   .mainFlexText {
     font-size: 11px;
     text-align: justify;
-    display: -webkit-box;
-    -webkit-line-clamp: 40;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+
 }
+  .table td{
+	  display:block;
+  }
+  .table thead{
+	  display:none;
+  }
 @media (max-width: 425px) {
   .mainFlexText {
     font-size: 11px;
     text-align: justify;
-    display: -webkit-box;
-    -webkit-line-clamp: 25;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+
   }
   .mainFlex {
     height: 100%;
@@ -460,13 +452,12 @@ hr {
     font-size: 11pt;
     min-width: 60%;
   }
-  .mainFlex table td {
-    position: relative;
-    display: block;
+  .table td{
+	  display:block;
   }
-  .mainFlex table td::before {
-    content: attr(data-label) ": ";
-    position: relative;
-    left: 2%;
+  .table thead{
+	  display:none;
   }
+
+
 }
